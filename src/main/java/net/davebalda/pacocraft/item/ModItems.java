@@ -15,6 +15,8 @@ public class ModItems {
     public static final RegistryObject<Item> ETNITE_GEM = ITEMS.register("etnite_gem",
             () -> new Item(new Item.Properties()));
 
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
