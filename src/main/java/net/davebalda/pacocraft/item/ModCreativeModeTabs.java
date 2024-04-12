@@ -1,6 +1,7 @@
 package net.davebalda.pacocraft.item;
 
 import net.davebalda.pacocraft.PacoCraft;
+import net.davebalda.pacocraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,7 +19,11 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(ModItems.ETNITE_GEM.get()))
                     .title(Component.translatable("creativetab.pc_items_tab"))
                     .displayItems((pParameters, pOutput) ->{
+
+                        //ITEMS OF "PC: ITEMS" CATEGORY
                         pOutput.accept(ModItems.ETNITE_GEM.get());
+                        pOutput.accept(ModBlocks.ETNITE_BLOCK.get());
+
                     })
                     .build());
 

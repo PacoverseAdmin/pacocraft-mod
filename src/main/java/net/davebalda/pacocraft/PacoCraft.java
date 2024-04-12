@@ -1,6 +1,7 @@
 package net.davebalda.pacocraft;
 
 import com.mojang.logging.LogUtils;
+import net.davebalda.pacocraft.block.ModBlocks;
 import net.davebalda.pacocraft.item.ModCreativeModeTabs;
 import net.davebalda.pacocraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,6 +35,7 @@ public class PacoCraft
         //LINK TO REGISTRIES
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
