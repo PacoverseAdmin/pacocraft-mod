@@ -11,12 +11,17 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, PacoCraft.MOD_ID);
 
-    //MOD ITEMS
+    /*
+     * To add new items just add new RegistryObject objects down here.
+     * There's NO NEED to recreate other methods!
+     */
     public static final RegistryObject<Item> ETNITE_GEM = ITEMS.register("etnite_gem",
             () -> new Item(new Item.Properties()));
 
 
-
+    /*
+    * Item-related methods.
+    */
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

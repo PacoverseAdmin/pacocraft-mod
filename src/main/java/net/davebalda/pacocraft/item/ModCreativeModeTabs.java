@@ -14,6 +14,10 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, PacoCraft.MOD_ID);
 
+    /*
+     * To add new tabs just add new RegistryObject objects down here.
+     * There's NO NEED to recreate other methods!
+     */
     public static final RegistryObject<CreativeModeTab> PC_ITEMS_TAB = CREATIVE_MODE_TABS.register("pc_items_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.ETNITE_GEM.get()))
@@ -27,6 +31,9 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
+    /*
+    * Tabs-related methods.
+    */
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }
