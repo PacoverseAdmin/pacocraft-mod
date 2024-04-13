@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pacocraft:block/test_block"
+    }
+  }
+}

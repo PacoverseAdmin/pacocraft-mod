@@ -2,6 +2,7 @@ package net.davebalda.pacocraft.block;
 
 import com.mojang.blaze3d.shaders.Uniform;
 import net.davebalda.pacocraft.PacoCraft;
+import net.davebalda.pacocraft.block.custom.TestBlock;
 import net.davebalda.pacocraft.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -20,6 +21,12 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, PacoCraft.MOD_ID);
+
+    /**
+     * Test Blocks
+     */
+    public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
+            () -> new TestBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BEDROCK))); //Not in creative tab
 
     /*
     * To add new blocks just add new RegistryObject objects down here.
