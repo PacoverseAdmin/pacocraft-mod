@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pacocraft:etnite_block"
+    }
+  ],
+  "result": {
+    "item": "pacocraft:etnite_gem",
+    "count": 9
+  }
+}

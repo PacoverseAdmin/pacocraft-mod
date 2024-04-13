@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pacocraft:etnite_gem"
+    }
+  },
+  "result": {
+    "item": "pacocraft:etnite_block"
+  }
+}
