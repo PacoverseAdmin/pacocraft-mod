@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                         //ITEMS OF "PC: ITEMS" CATEGORY
                         pOutput.accept(ModItems.ETNITE_GEM.get());
                         pOutput.accept(ModBlocks.ETNITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.ETNITE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_ETNITE_ORE.get());
 
                     })
                     .build());

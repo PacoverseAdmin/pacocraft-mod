@@ -1,11 +1,14 @@
 package net.davebalda.pacocraft.block;
 
+import com.mojang.blaze3d.shaders.Uniform;
 import net.davebalda.pacocraft.PacoCraft;
 import net.davebalda.pacocraft.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,6 +27,14 @@ public class ModBlocks {
     */
     public static final RegistryObject<Block> ETNITE_BLOCK = registerBlock("etnite_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> ETNITE_ORE = registerBlock("etnite_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.EMERALD_ORE)));
+
+    public static final RegistryObject<Block> DEEPSLATE_ETNITE_ORE = registerBlock("deepslate_etnite_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_EMERALD_ORE)));
 
 
     /*

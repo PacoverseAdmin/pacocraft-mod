@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pacocraft:block/deepslate_etnite_ore"
+  }
+}
