@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.ETNITE_BLOCK.get());
                         pOutput.accept(ModBlocks.ETNITE_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_ETNITE_ORE.get());
+                        pOutput.accept(ModItems.PROTEIN_SHAKE.get());
 
                     })
                     .build());

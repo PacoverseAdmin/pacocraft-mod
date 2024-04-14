@@ -18,6 +18,9 @@ public class ModItems {
     public static final RegistryObject<Item> ETNITE_GEM = ITEMS.register("etnite_gem",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PROTEIN_SHAKE = ITEMS.register("protein_shake",
+            () -> new Item(new Item.Properties().food(ModFoods.PROTEIN_SHAKE)));
+
 
     /*
     * Item-related methods.
