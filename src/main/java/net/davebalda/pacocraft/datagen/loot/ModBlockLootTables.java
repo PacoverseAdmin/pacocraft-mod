@@ -16,6 +16,7 @@ import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Set;
 
@@ -30,10 +31,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.ETNITE_ORE.get(),
                 block -> createGenericOreDrops(ModBlocks.ETNITE_ORE.get(), ModItems.ETNITE_GEM.get(),
-                        1.0F, 4.0F));
+                        1.0F, 1.0F));
         this.add(ModBlocks.DEEPSLATE_ETNITE_ORE.get(),
                 block -> createGenericOreDrops(ModBlocks.DEEPSLATE_ETNITE_ORE.get(), ModItems.ETNITE_GEM.get(),
-                        1.0F, 4.0F));
+                        1.0F, 1.0F));
     }
 
     protected LootTable.Builder createGenericOreDrops(Block pBlock, Item item, float min, float max) {
@@ -44,7 +45,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     }
 
     @Override
-    protected Iterable<Block> getKnownBlocks() {
+    protected @NotNull Iterable<Block> getKnownBlocks() {
         return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
     }
 }

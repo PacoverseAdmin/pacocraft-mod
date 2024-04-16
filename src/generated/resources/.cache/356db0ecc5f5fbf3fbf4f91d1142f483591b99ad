@@ -1,0 +1,13 @@
+// 1.20.4	2024-04-16T14:33:00.6366485	Block States: pacocraft
+3ddac536caec83e600a059fa5c9e6b159c74ad6b assets/pacocraft/blockstates/deepslate_etnite_ore.json
+cefe36fda8d468fee2816bfb91b343cd7b194579 assets/pacocraft/blockstates/etnite_block.json
+45c952ed221b281f9ba63fbf4a41c6669f5aeb0e assets/pacocraft/blockstates/etnite_ore.json
+fb92a0477888dd3db0260b6ba362b2bc94362e91 assets/pacocraft/blockstates/test_block.json
+d90e442c44e160f89153f25a09d347cbff05b54f assets/pacocraft/models/block/deepslate_etnite_ore.json
+d73bea3ece5bf29f8c233b2a4d63be9140feab03 assets/pacocraft/models/block/etnite_block.json
+d68f2500b4214060d8dcafe8bf99ff8330f93183 assets/pacocraft/models/block/etnite_ore.json
+6c11f3aff8446ece6c8875f23d2640a80b4b2ce2 assets/pacocraft/models/block/test_block.json
+0875251c333e1d535f73d9d656d94e69038fd6f2 assets/pacocraft/models/item/deepslate_etnite_ore.json
+7efc4cf455907344f05a99ba9f8a031f7cc2f06b assets/pacocraft/models/item/etnite_block.json
+d7dbd338f918358e4313053687b08e2921e0ebf5 assets/pacocraft/models/item/etnite_ore.json
+2d519094801a3e82d750ae60c7c1c138784ad524 assets/pacocraft/models/item/test_block.json

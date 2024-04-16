@@ -1,0 +1,4 @@
+// 1.20.4	2024-04-16T14:33:00.6396483	Tags for minecraft:block mod id pacocraft
+c30be04dea23c7d1417122effdd045a7f497ca2c data/minecraft/tags/blocks/mineable/pickaxe.json
+ad4f8c6ba8586c2e5520107d06194d8540de23e0 data/minecraft/tags/blocks/needs_iron_tool.json
+46db94fb39b919436b58a179b780e10155c96ccd data/minecraft/tags/blocks/needs_stone_tool.json
