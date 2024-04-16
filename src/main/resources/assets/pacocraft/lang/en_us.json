@@ -2,10 +2,20 @@
   "item.pacocraft.etnite_gem": "Etnite Gem",
   "item.pacocraft.protein_shake": "Protein Shake",
 
+  "block.pacocraft.orlegno_planks": "Orlegno Planks",
+  "block.pacocraft.orlegno_stairs": "Orlegno Stairs",
+  "block.pacocraft.orlegno_slab": "Orlegno Slab",
+  "block.pacocraft.orlegno_button": "Orlegno Button",
+  "block.pacocraft.orlegno_pressure_plate": "Orlegno Pressure Plate",
+  "block.pacocraft.orlegno_fence": "Orlegno Fence",
+  "block.pacocraft.orlegno_fence_gate": "Orlegno Fence Gate",
+  "block.pacocraft.orlegno_door": "Orlegno Door",
+  "block.pacocraft.orlegno_trapdoor": "Orlegno Trapdoor",
   "block.pacocraft.etnite_block": "Block of Etnite",
   "block.pacocraft.etnite_ore": "Etnite Ore",
   "block.pacocraft.deepslate_etnite_ore": "Deepslate Etnite Ore",
   "block.pacocraft.test_block": "Test Block",
 
-  "creativetab.pc_items_tab": "PC: Items"
+  "creativetab.pc_items_tab": "PC: Items",
+  "creativetab.pc_blocks_tab": "PC: Blocks"
 }

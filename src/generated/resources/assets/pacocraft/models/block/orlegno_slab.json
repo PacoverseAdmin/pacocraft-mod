@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pacocraft:block/orlegno_planks",
+    "side": "pacocraft:block/orlegno_planks",
+    "top": "pacocraft:block/orlegno_planks"
+  }
+}

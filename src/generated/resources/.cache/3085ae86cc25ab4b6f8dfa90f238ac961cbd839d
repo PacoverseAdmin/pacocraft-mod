@@ -1,4 +1,8 @@
-// 1.20.4	2024-04-16T14:33:00.6396483	Tags for minecraft:block mod id pacocraft
+// 1.20.4	2024-04-16T16:18:11.956855	Tags for minecraft:block mod id pacocraft
+731b51a655417082c47e71b63f91d52a5a02a764 data/minecraft/tags/blocks/fences.json
+10cf33ff9b27bc4d956f408d3dcba9220e9403d3 data/minecraft/tags/blocks/fence_gates.json
+d2f1a5c3b0a68d366a946e90d0089150662cd43c data/minecraft/tags/blocks/mineable/axe.json
 c30be04dea23c7d1417122effdd045a7f497ca2c data/minecraft/tags/blocks/mineable/pickaxe.json
 ad4f8c6ba8586c2e5520107d06194d8540de23e0 data/minecraft/tags/blocks/needs_iron_tool.json
 46db94fb39b919436b58a179b780e10155c96ccd data/minecraft/tags/blocks/needs_stone_tool.json
+d2f1a5c3b0a68d366a946e90d0089150662cd43c data/minecraft/tags/blocks/planks.json

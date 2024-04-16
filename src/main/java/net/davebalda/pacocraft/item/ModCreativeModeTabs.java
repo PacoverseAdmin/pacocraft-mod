@@ -26,10 +26,30 @@ public class ModCreativeModeTabs {
 
                         //ITEMS OF "PC: ITEMS" CATEGORY
                         pOutput.accept(ModItems.ETNITE_GEM.get());
+                        pOutput.accept(ModItems.PROTEIN_SHAKE.get());
+
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> PC_BLOCKS_TAB = CREATIVE_MODE_TABS.register("pc_creative_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.ORLEGNO_PLANKS.get()))
+                    .title(Component.translatable("creativetab.pc_blocks_tab"))
+                    .displayItems((pParameters, pOutput) ->{
+
+                        //ITEMS OF "PC: BLOCKS" CATEGORY
                         pOutput.accept(ModBlocks.ETNITE_BLOCK.get());
                         pOutput.accept(ModBlocks.ETNITE_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_ETNITE_ORE.get());
-                        pOutput.accept(ModItems.PROTEIN_SHAKE.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_PLANKS.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_STAIRS.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_SLAB.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_FENCE.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_BUTTON.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_DOOR.get());
+                        pOutput.accept(ModBlocks.ORLEGNO_TRAPDOOR.get());
 
                     })
                     .build());

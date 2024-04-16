@@ -1,4 +1,13 @@
-// 1.20.4	2024-04-16T14:33:00.6416502	Loot Tables
-8b1e3712276d0899c5263b18228e37b24f1e164b data/pacocraft/loot_tables/blocks/deepslate_etnite_ore.json
+// 1.20.4	2024-04-16T16:18:11.9588558	Loot Tables
+f8f8928ac15812b15ede629e5edba48a65811cec data/pacocraft/loot_tables/blocks/deepslate_etnite_ore.json
 8e682be2e5e62377009802ec562ee00f6c03ca5c data/pacocraft/loot_tables/blocks/etnite_block.json
-0bcc120ebf1a22d03e0fca24adf2ead8bdf1ef9a data/pacocraft/loot_tables/blocks/etnite_ore.json
+924d6d5c13059d2e19047e4692e35d65272754cf data/pacocraft/loot_tables/blocks/etnite_ore.json
+2ebe85714d0df93a843af363f32bb1fc4be05337 data/pacocraft/loot_tables/blocks/orlegno_button.json
+535f9cf821bbe2de2c00221fc3e8dee7e69ebc6c data/pacocraft/loot_tables/blocks/orlegno_door.json
+60135f3968ca5ec77a2e1659105adc7130a72b58 data/pacocraft/loot_tables/blocks/orlegno_fence.json
+71f4289abe8c56bd56bc0459e1481e6fc1443efe data/pacocraft/loot_tables/blocks/orlegno_fence_gate.json
+8caf164af754c89d6c2439a59dd0f6bec47644bf data/pacocraft/loot_tables/blocks/orlegno_planks.json
+9575314af64677ca3e2575074ddb5ea4129a95a9 data/pacocraft/loot_tables/blocks/orlegno_pressure_plate.json
+17b279affb21cd19a543cc518e84ca403804660b data/pacocraft/loot_tables/blocks/orlegno_slab.json
+a265e6c99f332a5ee33061131e9360a833dbe59a data/pacocraft/loot_tables/blocks/orlegno_stairs.json
+bb01828fea41c1b1e1fd5667144179ab93d87809 data/pacocraft/loot_tables/blocks/orlegno_trapdoor.json

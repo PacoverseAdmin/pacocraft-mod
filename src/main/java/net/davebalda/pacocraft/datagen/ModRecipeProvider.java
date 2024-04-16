@@ -5,6 +5,7 @@ import net.davebalda.pacocraft.block.ModBlocks;
 import net.davebalda.pacocraft.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -35,6 +36,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.ETNITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ETNITE_BLOCK.get()), has(ModBlocks.ETNITE_BLOCK.get()))
                 .save(recipeOutput);
+
+        /*
+        //SHAPELESS: 1 gunpowder, 1 glowstone_dust, 1 redstone, 1 glass_bottle -> 1 PROTEIN SHAKE
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PROTEIN_SHAKE.get(), 1)
+                .requires(((ItemLike) Items.GLASS_BOTTLE))
+                .requires(((ItemLike) Items.REDSTONE))
+                .requires(((ItemLike) Items.GLOWSTONE_DUST))
+                .requires(((ItemLike) Items.GUNPOWDER))
+                .unlockedBy(getHasName(((ItemLike) Items.GLASS_BOTTLE)), has(((ItemLike) Items.GLASS_BOTTLE)))
+                .save(recipeOutput);
+         */
     }
 
     protected static void oreSmelting(@NotNull RecipeOutput pRecipeOutput, List<ItemLike> pIngredients,

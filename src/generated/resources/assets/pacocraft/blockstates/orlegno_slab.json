@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pacocraft:block/orlegno_slab"
+    },
+    "type=double": {
+      "model": "pacocraft:block/orlegno_planks"
+    },
+    "type=top": {
+      "model": "pacocraft:block/orlegno_slab_top"
+    }
+  }
+}
