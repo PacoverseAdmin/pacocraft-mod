@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "pacocraft:etnite_gem"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "G G"
+  ],
+  "result": {
+    "item": "pacocraft:etnite_helmet"
+  }
+}

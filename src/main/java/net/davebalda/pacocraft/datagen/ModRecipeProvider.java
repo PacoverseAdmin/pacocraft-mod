@@ -37,7 +37,91 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.ETNITE_BLOCK.get()), has(ModBlocks.ETNITE_BLOCK.get()))
                 .save(recipeOutput);
 
-        /*
+        //SHAPED: Etnite Pickaxe
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ETNITE_PICKAXE.get())
+                .pattern("GGG")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+        //SHAPED: Etnite Axe
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ETNITE_AXE.get())
+                .pattern("GG")
+                .pattern("SG")
+                .pattern("S ")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+        //SHAPED: Etnite Shovel
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ETNITE_SHOVEL.get())
+                .pattern("G")
+                .pattern("S")
+                .pattern("S")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+        //SHAPED: Etnite Hoe
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ETNITE_HOE.get())
+                .pattern("GG")
+                .pattern("S ")
+                .pattern("S ")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+        //SHAPED: Etnite Sword
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ETNITE_SWORD.get())
+                .pattern("G")
+                .pattern("G")
+                .pattern("S")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+        //SHAPED: Etnite Helmet
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ETNITE_HELMET.get())
+                .pattern("GGG")
+                .pattern("G G")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+        //SHAPED: Etnite Chestplate
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ETNITE_CHESTPLATE.get())
+                .pattern("G G")
+                .pattern("GGG")
+                .pattern("GGG")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+        //SHAPED: Etnite Leggings
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ETNITE_LEGGINGS.get())
+                .pattern("GGG")
+                .pattern("G G")
+                .pattern("G G")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+        //SHAPED: Etnite Boots
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ETNITE_BOOTS.get())
+                .pattern("G G")
+                .pattern("G G")
+                .define('G', ModItems.ETNITE_GEM.get())
+                .unlockedBy(getHasName(ModItems.ETNITE_GEM.get()), has(ModItems.ETNITE_GEM.get()))
+                .save(recipeOutput);
+
+
         //SHAPELESS: 1 gunpowder, 1 glowstone_dust, 1 redstone, 1 glass_bottle -> 1 PROTEIN SHAKE
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PROTEIN_SHAKE.get(), 1)
                 .requires(((ItemLike) Items.GLASS_BOTTLE))
@@ -46,7 +130,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(((ItemLike) Items.GUNPOWDER))
                 .unlockedBy(getHasName(((ItemLike) Items.GLASS_BOTTLE)), has(((ItemLike) Items.GLASS_BOTTLE)))
                 .save(recipeOutput);
-         */
+
     }
 
     protected static void oreSmelting(@NotNull RecipeOutput pRecipeOutput, List<ItemLike> pIngredients,

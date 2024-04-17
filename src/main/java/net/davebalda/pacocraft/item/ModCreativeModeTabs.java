@@ -54,6 +54,26 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
+    public static final RegistryObject<CreativeModeTab> PC_TOOLS_TAB = CREATIVE_MODE_TABS.register("pc_tools_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.ETNITE_PICKAXE.get()))
+                    .title(Component.translatable("creativetab.pc_tools_tab"))
+                    .displayItems((pParameters, pOutput) ->{
+
+                        //ITEMS OF "PC: TOOLS" CATEGORY
+                        pOutput.accept(ModItems.ETNITE_SWORD.get());
+                        pOutput.accept(ModItems.ETNITE_PICKAXE.get());
+                        pOutput.accept(ModItems.ETNITE_AXE.get());
+                        pOutput.accept(ModItems.ETNITE_SHOVEL.get());
+                        pOutput.accept(ModItems.ETNITE_HOE.get());
+                        pOutput.accept(ModItems.ETNITE_HELMET.get());
+                        pOutput.accept(ModItems.ETNITE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.ETNITE_LEGGINGS.get());
+                        pOutput.accept(ModItems.ETNITE_BOOTS.get());
+
+                    })
+                    .build());
+
     /*
     * Tabs-related methods.
     */

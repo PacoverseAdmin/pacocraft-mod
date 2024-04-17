@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:glass_bottle"
     },
     {
       "item": "minecraft:redstone"
@@ -12,11 +12,10 @@
       "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:gunpowder"
     }
   ],
   "result": {
-    "count": 1,
     "item": "pacocraft:protein_shake"
   }
 }

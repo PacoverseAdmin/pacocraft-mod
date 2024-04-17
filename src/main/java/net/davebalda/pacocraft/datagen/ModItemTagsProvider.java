@@ -2,6 +2,7 @@ package net.davebalda.pacocraft.datagen;
 
 import net.davebalda.pacocraft.PacoCraft;
 import net.davebalda.pacocraft.block.ModBlocks;
+import net.davebalda.pacocraft.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -21,6 +22,14 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        //TRIMMABLE
+        this.tag(ItemTags.TRIMMABLE_ARMOR).add(
+                ModItems.ETNITE_HELMET.get(),
+                ModItems.ETNITE_CHESTPLATE.get(),
+                ModItems.ETNITE_LEGGINGS.get(),
+                ModItems.ETNITE_BOOTS.get()
+        );
+
         this.tag(ItemTags.PLANKS).add(
                 ModBlocks.ORLEGNO_PLANKS.get().asItem()
         );

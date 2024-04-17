@@ -12,6 +12,8 @@ public class ModTags {
     public static class Blocks {
         //public static final TagKey<Block> VALUABLE_LIST_OF_SOMETHING = tag("smht_val_list");
 
+        public static final TagKey<Block> NEEDS_ETNITE_TOOL = tag("needs_etnite_tool");
+
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(PacoCraft.MOD_ID, name));
         }
