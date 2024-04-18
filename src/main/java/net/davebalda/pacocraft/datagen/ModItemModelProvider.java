@@ -49,6 +49,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.ETNITE_GEM);
         simpleItem(ModItems.PROTEIN_SHAKE);
+        simpleItem(ModItems.CHECHEN_ARTICHOKE);
+        simpleItem(ModItems.MUSIC_DISC_FACCETTA_NERA);
 
         handheldItem(ModItems.ETNITE_SWORD);
         handheldItem(ModItems.ETNITE_PICKAXE);

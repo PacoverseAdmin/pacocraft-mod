@@ -33,5 +33,9 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         this.tag(ItemTags.PLANKS).add(
                 ModBlocks.ORLEGNO_PLANKS.get().asItem()
         );
+
+        this.tag(ItemTags.MUSIC_DISCS).add(
+                ModItems.MUSIC_DISC_FACCETTA_NERA.get()
+        );
     }
 }

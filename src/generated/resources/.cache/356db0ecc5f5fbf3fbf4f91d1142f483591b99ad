@@ -1,4 +1,5 @@
-// 1.20.4	2024-04-16T16:18:11.9548549	Block States: pacocraft
+// 1.20.4	2024-04-18T15:16:14.5475424	Block States: pacocraft
+0053a2a10510b2e6608ee8c30d00826da54e5b84 assets/pacocraft/blockstates/chechen_artichoke_crop.json
 3ddac536caec83e600a059fa5c9e6b159c74ad6b assets/pacocraft/blockstates/deepslate_etnite_ore.json
 cefe36fda8d468fee2816bfb91b343cd7b194579 assets/pacocraft/blockstates/etnite_block.json
 45c952ed221b281f9ba63fbf4a41c6669f5aeb0e assets/pacocraft/blockstates/etnite_ore.json
@@ -12,6 +13,10 @@ da4c1af89c040c109dc75aae5146157c0388d595 assets/pacocraft/blockstates/orlegno_fe
 16e5f3c7a1a2bb58478fe5d177bc175c0f24c595 assets/pacocraft/blockstates/orlegno_stairs.json
 639776d93a4ce0d2c73f23e45c95aedc06e8c5a5 assets/pacocraft/blockstates/orlegno_trapdoor.json
 fb92a0477888dd3db0260b6ba362b2bc94362e91 assets/pacocraft/blockstates/test_block.json
+811443084db2adeef55660d953989e192c1fa985 assets/pacocraft/models/block/chechen_artichoke_stage0.json
+1c326614deca79e233a20304748c7eda7c73239c assets/pacocraft/models/block/chechen_artichoke_stage1.json
+4da6f9b7b80c6206cf7cc5378abff1bb7db75011 assets/pacocraft/models/block/chechen_artichoke_stage2.json
+943030cfcac0e020233c91ec0d8b23f183888bef assets/pacocraft/models/block/chechen_artichoke_stage3.json
 d90e442c44e160f89153f25a09d347cbff05b54f assets/pacocraft/models/block/deepslate_etnite_ore.json
 d73bea3ece5bf29f8c233b2a4d63be9140feab03 assets/pacocraft/models/block/etnite_block.json
 d68f2500b4214060d8dcafe8bf99ff8330f93183 assets/pacocraft/models/block/etnite_ore.json

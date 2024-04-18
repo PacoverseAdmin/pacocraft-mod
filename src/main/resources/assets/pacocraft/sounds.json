@@ -1,0 +1,10 @@
+{
+  "faccetta_nera": {
+    "sounds": [
+      {
+        "name": "pacocraft:faccetta_nera",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -2,12 +2,17 @@ package net.davebalda.pacocraft.datagen;
 
 import net.davebalda.pacocraft.PacoCraft;
 import net.davebalda.pacocraft.block.ModBlocks;
+import net.davebalda.pacocraft.block.custom.ChechenArtichokeCropBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -39,6 +44,23 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.ORLEGNO_TRAPDOOR.get(),
                 modLoc("block/orlegno_trapdoor"), true, "cutout");
+
+        makeChechenArtichokeCrop((CropBlock) ModBlocks.CHECHEN_ARTICHOKE_CROP.get(),
+                "chechen_artichoke_stage", "chechen_artichoke_stage");
+    }
+
+    public void makeChechenArtichokeCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> chechenArtichokeStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] chechenArtichokeStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((ChechenArtichokeCropBlock) block).getAgeProperty()),
+                new ResourceLocation(PacoCraft.MOD_ID, "block/" + textureName + state.getValue(((ChechenArtichokeCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject){

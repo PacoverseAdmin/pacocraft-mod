@@ -1,6 +1,8 @@
 package net.davebalda.pacocraft.item;
 
 import net.davebalda.pacocraft.PacoCraft;
+import net.davebalda.pacocraft.block.ModBlocks;
+import net.davebalda.pacocraft.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -40,6 +42,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> PROTEIN_SHAKE = ITEMS.register("protein_shake",
             () -> new Item(new Item.Properties().food(ModFoods.PROTEIN_SHAKE)));
+    public static final RegistryObject<Item> CHECHEN_ARTICHOKE = ITEMS.register("chechen_artichoke",
+            () -> new ItemNameBlockItem(ModBlocks.CHECHEN_ARTICHOKE_CROP.get(), new Item.Properties().food(ModFoods.CHECHEN_ARTICHOKE)));
+
+    public static final RegistryObject<Item> MUSIC_DISC_FACCETTA_NERA = ITEMS.register("music_disc_faccetta_nera",
+            () -> new RecordItem(6, ModSounds.FACCETTA_NERA,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3120));
 
 
     /*

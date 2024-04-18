@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                         //ITEMS OF "PC: ITEMS" CATEGORY
                         pOutput.accept(ModItems.ETNITE_GEM.get());
                         pOutput.accept(ModItems.PROTEIN_SHAKE.get());
+                        pOutput.accept(ModItems.CHECHEN_ARTICHOKE.get());
+                        pOutput.accept(ModItems.MUSIC_DISC_FACCETTA_NERA.get());
 
                     })
                     .build());
