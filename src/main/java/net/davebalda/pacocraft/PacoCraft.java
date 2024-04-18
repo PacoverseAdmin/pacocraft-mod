@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.davebalda.pacocraft.block.ModBlocks;
 import net.davebalda.pacocraft.item.ModCreativeModeTabs;
 import net.davebalda.pacocraft.item.ModItems;
+import net.davebalda.pacocraft.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -36,6 +37,7 @@ public class PacoCraft
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
