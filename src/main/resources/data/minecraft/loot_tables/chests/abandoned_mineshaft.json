@@ -40,6 +40,10 @@
         {
           "type": "pacocraft:music_disc_faccetta_nera",
           "weight": 10
+        },
+        {
+          "type": "pacocraft:music_disc_chechnya",
+          "weight": 12
         }
       ],
       "rolls": 1.0

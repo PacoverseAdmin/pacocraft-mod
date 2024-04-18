@@ -35,7 +35,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         );
 
         this.tag(ItemTags.MUSIC_DISCS).add(
-                ModItems.MUSIC_DISC_FACCETTA_NERA.get()
+                ModItems.MUSIC_DISC_FACCETTA_NERA.get(),
+                ModItems.MUSIC_DISC_CHECHNYA.get()
         );
     }
 }

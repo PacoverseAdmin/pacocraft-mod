@@ -51,6 +51,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PROTEIN_SHAKE);
         simpleItem(ModItems.CHECHEN_ARTICHOKE);
         simpleItem(ModItems.MUSIC_DISC_FACCETTA_NERA);
+        simpleItem(ModItems.MUSIC_DISC_CHECHNYA);
 
         handheldItem(ModItems.ETNITE_SWORD);
         handheldItem(ModItems.ETNITE_PICKAXE);

@@ -48,6 +48,9 @@ public class ModItems {
     public static final RegistryObject<Item> MUSIC_DISC_FACCETTA_NERA = ITEMS.register("music_disc_faccetta_nera",
             () -> new RecordItem(6, ModSounds.FACCETTA_NERA,
                     new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3120));
+    public static final RegistryObject<Item> MUSIC_DISC_CHECHNYA = ITEMS.register("music_disc_chechnya",
+            () -> new RecordItem(6, ModSounds.CHECHNYA,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3840));
 
 
     /*
